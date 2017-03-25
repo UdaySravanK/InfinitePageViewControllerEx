@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A54E330199B3D1E003121BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E32F199B3D1E003121BE /* Foundation.framework */; };
+		5A54E332199B3D1E003121BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E331199B3D1E003121BE /* CoreGraphics.framework */; };
+		5A54E334199B3D1E003121BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E333199B3D1E003121BE /* UIKit.framework */; };
+		5A54E336199B3D1E003121BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E335199B3D1E003121BE /* CoreData.framework */; };
+		5A54E33C199B3D1E003121BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A54E33A199B3D1E003121BE /* InfoPlist.strings */; };
+		5A54E33E199B3D1E003121BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A54E33D199B3D1E003121BE /* main.m */; };
+		5A54E342199B3D1E003121BE /* USKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A54E341199B3D1E003121BE /* USKAppDelegate.m */; };
+		5A54E345199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A54E343199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodeld */; };
+		5A54E347199B3D1E003121BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A54E346199B3D1E003121BE /* Images.xcassets */; };
+		5A54E34E199B3D1E003121BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E34D199B3D1E003121BE /* XCTest.framework */; };
+		5A54E34F199B3D1E003121BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E32F199B3D1E003121BE /* Foundation.framework */; };
+		5A54E350199B3D1E003121BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E333199B3D1E003121BE /* UIKit.framework */; };
+		5A54E351199B3D1E003121BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54E335199B3D1E003121BE /* CoreData.framework */; };
+		5A54E359199B3D1E003121BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A54E357199B3D1E003121BE /* InfoPlist.strings */; };
+		5A54E35B199B3D1E003121BE /* InfinitePageViewControllerExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A54E35A199B3D1E003121BE /* InfinitePageViewControllerExTests.m */; };
+		5A54E369199B3D84003121BE /* USKPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A54E366199B3D84003121BE /* USKPageView.m */; };
+		5A54E36A199B3D84003121BE /* USKPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A54E368199B3D84003121BE /* USKPagerView.m */; };
+		5A54E36E199B3DCD003121BE /* USKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A54E36C199B3DCD003121BE /* USKViewController.m */; };
+		5A54E36F199B3DCD003121BE /* USKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A54E36D199B3DCD003121BE /* USKViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A54E352199B3D1E003121BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A54E324199B3D1E003121BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A54E32B199B3D1E003121BE;
+			remoteInfo = InfinitePageViewControllerEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A54E32C199B3D1E003121BE /* InfinitePageViewControllerEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePageViewControllerEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A54E32F199B3D1E003121BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A54E331199B3D1E003121BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A54E333199B3D1E003121BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A54E335199B3D1E003121BE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5A54E339199B3D1E003121BE /* InfinitePageViewControllerEx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinitePageViewControllerEx-Info.plist"; sourceTree = "<group>"; };
+		5A54E33B199B3D1E003121BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A54E33D199B3D1E003121BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A54E33F199B3D1E003121BE /* InfinitePageViewControllerEx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfinitePageViewControllerEx-Prefix.pch"; sourceTree = "<group>"; };
+		5A54E340199B3D1E003121BE /* USKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USKAppDelegate.h; sourceTree = "<group>"; };
+		5A54E341199B3D1E003121BE /* USKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USKAppDelegate.m; sourceTree = "<group>"; };
+		5A54E344199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InfinitePageViewControllerEx.xcdatamodel; sourceTree = "<group>"; };
+		5A54E346199B3D1E003121BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A54E34C199B3D1E003121BE /* InfinitePageViewControllerExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfinitePageViewControllerExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A54E34D199B3D1E003121BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5A54E356199B3D1E003121BE /* InfinitePageViewControllerExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfinitePageViewControllerExTests-Info.plist"; sourceTree = "<group>"; };
+		5A54E358199B3D1E003121BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A54E35A199B3D1E003121BE /* InfinitePageViewControllerExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfinitePageViewControllerExTests.m; sourceTree = "<group>"; };
+		5A54E365199B3D84003121BE /* USKPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USKPageView.h; sourceTree = "<group>"; };
+		5A54E366199B3D84003121BE /* USKPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USKPageView.m; sourceTree = "<group>"; };
+		5A54E367199B3D84003121BE /* USKPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USKPagerView.h; sourceTree = "<group>"; };
+		5A54E368199B3D84003121BE /* USKPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USKPagerView.m; sourceTree = "<group>"; };
+		5A54E36B199B3DCD003121BE /* USKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USKViewController.h; sourceTree = "<group>"; };
+		5A54E36C199B3DCD003121BE /* USKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USKViewController.m; sourceTree = "<group>"; };
+		5A54E36D199B3DCD003121BE /* USKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USKViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A54E329199B3D1E003121BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A54E332199B3D1E003121BE /* CoreGraphics.framework in Frameworks */,
+				5A54E336199B3D1E003121BE /* CoreData.framework in Frameworks */,
+				5A54E334199B3D1E003121BE /* UIKit.framework in Frameworks */,
+				5A54E330199B3D1E003121BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A54E349199B3D1E003121BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A54E34E199B3D1E003121BE /* XCTest.framework in Frameworks */,
+				5A54E351199B3D1E003121BE /* CoreData.framework in Frameworks */,
+				5A54E350199B3D1E003121BE /* UIKit.framework in Frameworks */,
+				5A54E34F199B3D1E003121BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A54E323199B3D1E003121BE = {
+			isa = PBXGroup;
+			children = (
+				5A54E337199B3D1E003121BE /* InfinitePageViewControllerEx */,
+				5A54E354199B3D1E003121BE /* InfinitePageViewControllerExTests */,
+				5A54E32E199B3D1E003121BE /* Frameworks */,
+				5A54E32D199B3D1E003121BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A54E32D199B3D1E003121BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E32C199B3D1E003121BE /* InfinitePageViewControllerEx.app */,
+				5A54E34C199B3D1E003121BE /* InfinitePageViewControllerExTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A54E32E199B3D1E003121BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E32F199B3D1E003121BE /* Foundation.framework */,
+				5A54E331199B3D1E003121BE /* CoreGraphics.framework */,
+				5A54E333199B3D1E003121BE /* UIKit.framework */,
+				5A54E335199B3D1E003121BE /* CoreData.framework */,
+				5A54E34D199B3D1E003121BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A54E337199B3D1E003121BE /* InfinitePageViewControllerEx */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E364199B3D68003121BE /* Source */,
+				5A54E340199B3D1E003121BE /* USKAppDelegate.h */,
+				5A54E341199B3D1E003121BE /* USKAppDelegate.m */,
+				5A54E346199B3D1E003121BE /* Images.xcassets */,
+				5A54E343199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodeld */,
+				5A54E338199B3D1E003121BE /* Supporting Files */,
+				5A54E36B199B3DCD003121BE /* USKViewController.h */,
+				5A54E36C199B3DCD003121BE /* USKViewController.m */,
+				5A54E36D199B3DCD003121BE /* USKViewController.xib */,
+			);
+			path = InfinitePageViewControllerEx;
+			sourceTree = "<group>";
+		};
+		5A54E338199B3D1E003121BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E339199B3D1E003121BE /* InfinitePageViewControllerEx-Info.plist */,
+				5A54E33A199B3D1E003121BE /* InfoPlist.strings */,
+				5A54E33D199B3D1E003121BE /* main.m */,
+				5A54E33F199B3D1E003121BE /* InfinitePageViewControllerEx-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A54E354199B3D1E003121BE /* InfinitePageViewControllerExTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E35A199B3D1E003121BE /* InfinitePageViewControllerExTests.m */,
+				5A54E355199B3D1E003121BE /* Supporting Files */,
+			);
+			path = InfinitePageViewControllerExTests;
+			sourceTree = "<group>";
+		};
+		5A54E355199B3D1E003121BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E356199B3D1E003121BE /* InfinitePageViewControllerExTests-Info.plist */,
+				5A54E357199B3D1E003121BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A54E364199B3D68003121BE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5A54E365199B3D84003121BE /* USKPageView.h */,
+				5A54E366199B3D84003121BE /* USKPageView.m */,
+				5A54E367199B3D84003121BE /* USKPagerView.h */,
+				5A54E368199B3D84003121BE /* USKPagerView.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A54E32B199B3D1E003121BE /* InfinitePageViewControllerEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A54E35E199B3D1E003121BE /* Build configuration list for PBXNativeTarget "InfinitePageViewControllerEx" */;
+			buildPhases = (
+				5A54E328199B3D1E003121BE /* Sources */,
+				5A54E329199B3D1E003121BE /* Frameworks */,
+				5A54E32A199B3D1E003121BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfinitePageViewControllerEx;
+			productName = InfinitePageViewControllerEx;
+			productReference = 5A54E32C199B3D1E003121BE /* InfinitePageViewControllerEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A54E34B199B3D1E003121BE /* InfinitePageViewControllerExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A54E361199B3D1E003121BE /* Build configuration list for PBXNativeTarget "InfinitePageViewControllerExTests" */;
+			buildPhases = (
+				5A54E348199B3D1E003121BE /* Sources */,
+				5A54E349199B3D1E003121BE /* Frameworks */,
+				5A54E34A199B3D1E003121BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A54E353199B3D1E003121BE /* PBXTargetDependency */,
+			);
+			name = InfinitePageViewControllerExTests;
+			productName = InfinitePageViewControllerExTests;
+			productReference = 5A54E34C199B3D1E003121BE /* InfinitePageViewControllerExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A54E324199B3D1E003121BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = USK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = hurix;
+				TargetAttributes = {
+					5A54E34B199B3D1E003121BE = {
+						TestTargetID = 5A54E32B199B3D1E003121BE;
+					};
+				};
+			};
+			buildConfigurationList = 5A54E327199B3D1E003121BE /* Build configuration list for PBXProject "InfinitePageViewControllerEx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A54E323199B3D1E003121BE;
+			productRefGroup = 5A54E32D199B3D1E003121BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A54E32B199B3D1E003121BE /* InfinitePageViewControllerEx */,
+				5A54E34B199B3D1E003121BE /* InfinitePageViewControllerExTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A54E32A199B3D1E003121BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A54E36F199B3DCD003121BE /* USKViewController.xib in Resources */,
+				5A54E33C199B3D1E003121BE /* InfoPlist.strings in Resources */,
+				5A54E347199B3D1E003121BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A54E34A199B3D1E003121BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A54E359199B3D1E003121BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A54E328199B3D1E003121BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A54E36E199B3DCD003121BE /* USKViewController.m in Sources */,
+				5A54E342199B3D1E003121BE /* USKAppDelegate.m in Sources */,
+				5A54E369199B3D84003121BE /* USKPageView.m in Sources */,
+				5A54E36A199B3D84003121BE /* USKPagerView.m in Sources */,
+				5A54E345199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodeld in Sources */,
+				5A54E33E199B3D1E003121BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A54E348199B3D1E003121BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A54E35B199B3D1E003121BE /* InfinitePageViewControllerExTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A54E353199B3D1E003121BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A54E32B199B3D1E003121BE /* InfinitePageViewControllerEx */;
+			targetProxy = 5A54E352199B3D1E003121BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A54E33A199B3D1E003121BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A54E33B199B3D1E003121BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A54E357199B3D1E003121BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A54E358199B3D1E003121BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A54E35C199B3D1E003121BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A54E35D199B3D1E003121BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A54E35F199B3D1E003121BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePageViewControllerEx/InfinitePageViewControllerEx-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePageViewControllerEx/InfinitePageViewControllerEx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A54E360199B3D1E003121BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePageViewControllerEx/InfinitePageViewControllerEx-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePageViewControllerEx/InfinitePageViewControllerEx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A54E362199B3D1E003121BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfinitePageViewControllerEx.app/InfinitePageViewControllerEx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePageViewControllerEx/InfinitePageViewControllerEx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InfinitePageViewControllerExTests/InfinitePageViewControllerExTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5A54E363199B3D1E003121BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfinitePageViewControllerEx.app/InfinitePageViewControllerEx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfinitePageViewControllerEx/InfinitePageViewControllerEx-Prefix.pch";
+				INFOPLIST_FILE = "InfinitePageViewControllerExTests/InfinitePageViewControllerExTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A54E327199B3D1E003121BE /* Build configuration list for PBXProject "InfinitePageViewControllerEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A54E35C199B3D1E003121BE /* Debug */,
+				5A54E35D199B3D1E003121BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A54E35E199B3D1E003121BE /* Build configuration list for PBXNativeTarget "InfinitePageViewControllerEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A54E35F199B3D1E003121BE /* Debug */,
+				5A54E360199B3D1E003121BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A54E361199B3D1E003121BE /* Build configuration list for PBXNativeTarget "InfinitePageViewControllerExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A54E362199B3D1E003121BE /* Debug */,
+				5A54E363199B3D1E003121BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A54E343199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A54E344199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodel */,
+			);
+			currentVersion = 5A54E344199B3D1E003121BE /* InfinitePageViewControllerEx.xcdatamodel */;
+			path = InfinitePageViewControllerEx.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A54E324199B3D1E003121BE /* Project object */;
+}
